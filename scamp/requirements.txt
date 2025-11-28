@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-telegram-bot==20.7
+requests
+Pillow
+fpdf2
+streamlit
+pydantic
+transformers
+torch
+torchaudio
+opencv-python
+numpy
+scipy
+python-dotenv
+scikit-learn

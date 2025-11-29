@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Scamp – Scam & Deepfake Guard",
+  "version": "0.1.0",
+  "description": "Send selected text to your Scamp backend and get scam risk scores inside Chrome.",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*"
+  ],
+  "action": {
+    "default_title": "Scan selected text with Scamp",
+    "default_popup": "popup.html"
+  }
+}
